@@ -1,0 +1,77 @@
+"https://i.ibb.co/T0zS9RN/philippe-oursel-Zopo-Sy-TT-GM-unsplash.jpg" 
+
+
+"https://i.ibb.co/vmMr8PD/hiroshi-tsubono-5-BTq-L1-K6-Uc-I-unsplash.jpg" 
+
+
+"https://i.ibb.co/rkc5zsq/doruk-bayram-gs3duh5iqkw-unsplash.jpg" 
+
+"https://i.ibb.co/W07cWRN/chandler-cruttenden-CUJj-R4-J-Bl-M-unsplash.jpg" 
+
+"https://i.ibb.co/ZX741rM/alexander-shatov-Cys3-W7-MXDU-unsplash.jpg" 
+
+
+
+
+console.log(dummyProducts);
+console.log(dummyProducts);
+(20) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]0: {image: 'https://example.com/images/bmw-0.jpg', name: 'BMW Truck', brand: 'BMW', type: 'Car', price: '33583.25', …}1: {image: 'https://example.com/images/bmw-1.jpg', name: 'BMW Sedan', brand: 'BMW', type: 'Car', price: '11757.67', …}2: {image: 'https://example.com/images/mercedes-benz-2.jpg', name: 'Mercedes-Benz SUV', brand: 'Mercedes-Benz', type: 'Car', price: '32610.10', …}3: {image: 'https://example.com/images/tesla-3.jpg', name: 'Tesla Sports Car', brand: 'Tesla', type: 'Car', price: '25425.82', …}4: {image: 'https://example.com/images/bmw-4.jpg', name: 'BMW Truck', brand: 'BMW', type: 'Car', price: '18614.42', …}5: {image: 'https://example.com/images/tesla-5.jpg', name: 'Tesla SUV', brand: 'Tesla', type: 'Car', price: '23344.81', …}6: {image: 'https://example.com/images/ford-6.jpg', name: 'Ford SUV', brand: 'Ford', type: 'Car', price: '39892.91', …}7: {image: 'https://example.com/images/mercedes-benz-7.jpg', name: 'Mercedes-Benz Sports Car', brand: 'Mercedes-Benz', type: 'Car', price: '47648.17', …}8: {image: 'https://example.com/images/tesla-8.jpg', name: 'Tesla Truck', brand: 'Tesla', type: 'Car', price: '35876.49', …}9: {image: 'https://example.com/images/toyota-9.jpg', name: 'Toyota Truck', brand: 'Toyota', type: 'Car', price: '44582.27', …}10: {image: 'https://example.com/images/bmw-10.jpg', name: 'BMW Sports Car', brand: 'BMW', type: 'Car', price: '22158.58', …}11: {image: 'https://example.com/images/mercedes-benz-11.jpg', name: 'Mercedes-Benz Sedan', brand: 'Mercedes-Benz', type: 'Car', price: '21108.96', …}12: {image: 'https://example.com/images/toyota-12.jpg', name: 'Toyota Sports Car', brand: 'Toyota', type: 'Car', price: '46247.88', …}13: {image: 'https://example.com/images/mercedes-benz-13.jpg', name: 'Mercedes-Benz SUV', brand: 'Mercedes-Benz', type: 'Car', price: '35039.28', …}14: {image: 'https://example.com/images/toyota-14.jpg', name: 'Toyota SUV', brand: 'Toyota', type: 'Car', price: '36687.16', …}15: {image: 'https://example.com/images/bmw-15.jpg', name: 'BMW Sports Car', brand: 'BMW', type: 'Car', price: '19046.87', …}16: {image: 'https://example.com/images/bmw-16.jpg', name: 'BMW Sedan', brand: 'BMW', type: 'Car', price: '49054.33', …}17: {image: 'https://example.com/images/tesla-17.jpg', name: 'Tesla SUV', brand: 'Tesla', type: 'Car', price: '18430.28', …}18: {image: 'https://example.com/images/mercedes-benz-18.jpg', name: 'Mercedes-Benz Truck', brand: 'Mercedes-Benz', type: 'Car', price: '19289.72', …}19: {image: 'https://example.com/images/tesla-19.jpg', name: 'Tesla Truck', brand: 'Tesla', type: 'Car', price: '46716.06', …}length: 20[[Prototype]]: Array(0)
+ 
+{image: 'https://example.com/images/bmw-0.jpg', name: 'BMW Truck', brand: 'BMW', type: 'Car', price: '33583.25', …}
+1
+: 
+{image: 'https://example.com/images/bmw-1.jpg', name: 'BMW Sedan', brand: 'BMW', type: 'Car', price: '11757.67', …}
+2
+: 
+{image: 'https://example.com/images/mercedes-benz-2.jpg', name: 'Mercedes-Benz SUV', brand: 'Mercedes-Benz', type: 'Car', price: '32610.10', …}
+3
+: 
+{image: 'https://example.com/images/tesla-3.jpg', name: 'Tesla Sports Car', brand: 'Tesla', type: 'Car', price: '25425.82', …}
+4
+: 
+{image: 'https://example.com/images/bmw-4.jpg', name: 'BMW Truck', brand: 'BMW', type: 'Car', price: '18614.42', …}
+5
+: 
+{image: 'https://example.com/images/tesla-5.jpg', name: 'Tesla SUV', brand: 'Tesla', type: 'Car', price: '23344.81', …}
+6
+: 
+{image: 'https://example.com/images/ford-6.jpg', name: 'Ford SUV', brand: 'Ford', type: 'Car', price: '39892.91', …}
+7
+: 
+{image: 'https://example.com/images/mercedes-benz-7.jpg', name: 'Mercedes-Benz Sports Car', brand: 'Mercedes-Benz', type: 'Car', price: '47648.17', …}
+8
+: 
+{image: 'https://example.com/images/tesla-8.jpg', name: 'Tesla Truck', brand: 'Tesla', type: 'Car', price: '35876.49', …}
+9
+: 
+{image: 'https://example.com/images/toyota-9.jpg', name: 'Toyota Truck', brand: 'Toyota', type: 'Car', price: '44582.27', …}
+10
+: 
+{image: 'https://example.com/images/bmw-10.jpg', name: 'BMW Sports Car', brand: 'BMW', type: 'Car', price: '22158.58', …}
+11
+: 
+{image: 'https://example.com/images/mercedes-benz-11.jpg', name: 'Mercedes-Benz Sedan', brand: 'Mercedes-Benz', type: 'Car', price: '21108.96', …}
+12
+: 
+{image: 'https://example.com/images/toyota-12.jpg', name: 'Toyota Sports Car', brand: 'Toyota', type: 'Car', price: '46247.88', …}
+13
+: 
+{image: 'https://example.com/images/mercedes-benz-13.jpg', name: 'Mercedes-Benz SUV', brand: 'Mercedes-Benz', type: 'Car', price: '35039.28', …}
+14
+: 
+{image: 'https://example.com/images/toyota-14.jpg', name: 'Toyota SUV', brand: 'Toyota', type: 'Car', price: '36687.16', …}
+15
+: 
+{image: 'https://example.com/images/bmw-15.jpg', name: 'BMW Sports Car', brand: 'BMW', type: 'Car', price: '19046.87', …}
+16
+: 
+{image: 'https://example.com/images/bmw-16.jpg', name: 'BMW Sedan', brand: 'BMW', type: 'Car', price: '49054.33', …}
+17
+: 
+{image: 'https://example.com/images/tesla-17.jpg', name: 'Tesla SUV', brand: 'Tesla', type: 'Car', price: '18430.28', …}
+18
+: 
+{image: 'https://example.com/images/mercedes-benz-18.jpg', name: 'Mercedes-Benz Truck', brand: 'Mercedes-Benz', type: 'Car', price: '19289.72', …}
+19
+: 
+{image: 'https://example.com/images/tesla-19.jpg', name: 'Tesla Truck', brand: 'Tesla', type: 'Car', price: '46716.06', …}
