@@ -8,9 +8,9 @@ const Home = () => {
 <div>
  <div className="h-[100vh]">
 
-       <Navbar></Navbar>
+       {/* <Navbar></Navbar> */}
 
-<div className="max-w-7xl mx-auto h-[calc(100vh - 56px)]"><Banner></Banner></div>
+<div className=""><Banner></Banner></div>
 
 
 </div>

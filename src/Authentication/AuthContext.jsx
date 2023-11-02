@@ -8,7 +8,7 @@ export const contextauth=createContext(null)
 export const AuthContext = ({children}) => {
 
 const [user,setuser]=useState(null)
-
+const [loader,setloader]=useState(true)
 
 
 useEffect(()=>{
@@ -16,6 +16,7 @@ useEffect(()=>{
 const unSubscribe=onAuthStateChanged(auth,currentUser=>{
 
 setuser(currentUser)
+setloader(false)
 return ()=>{
 unSubscribe()
 }
@@ -45,7 +46,8 @@ console.error(error.message)
 const info=
 {
 user,
-logout
+logout,
+loader
 
 }
 

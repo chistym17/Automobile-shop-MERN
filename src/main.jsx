@@ -68,7 +68,7 @@ element:<UpdateInfo></UpdateInfo>,
 {
 path:'/brandPage/:name',
 element:<PrivateRoute><BrandPage></BrandPage></PrivateRoute>,
-loader:({params})=>fetch(`http:/localhost:5000/brandPage/${params.name}`)
+// loader:()=>fetch('http://localhost:5000/brandPage/BMW')
 },
 
 {

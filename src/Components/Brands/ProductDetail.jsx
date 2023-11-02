@@ -27,7 +27,7 @@ const AddtoCart=(name,image)=>
 
 setadded(true)
 const product={name,image}
-fetch('http://localhost:5000/addtoCart',{
+fetch('http:/localhost:5000/addtoCart',{
 
    method: "POST", 
     headers: {

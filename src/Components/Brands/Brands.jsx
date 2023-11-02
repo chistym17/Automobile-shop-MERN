@@ -19,11 +19,11 @@ const brands = [
     image: "https://i.ibb.co/rkc5zsq/doruk-bayram-gs3duh5iqkw-unsplash.jpg"
   },
   {
-    name: "Tesla ",
+    name: "Tesla",
     image: "https://i.ibb.co/W07cWRN/chandler-cruttenden-CUJj-R4-J-Bl-M-unsplash.jpg"
   },
   {
-    name: "Toyota ",
+    name: "Toyota",
     image: "https://i.ibb.co/ZX741rM/alexander-shatov-Cys3-W7-MXDU-unsplash.jpg"
   }
 ];

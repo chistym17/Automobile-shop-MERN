@@ -18,7 +18,7 @@ const UpdateInfo = () => {
     const Description = form.shortDescription.value
     const product = { name, brandName, price, Description, rating }
     form.reset()
-    fetch(`http://localhost:5000/update/${_id}`, {
+    fetch(`http:/localhost:5000/update/${_id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

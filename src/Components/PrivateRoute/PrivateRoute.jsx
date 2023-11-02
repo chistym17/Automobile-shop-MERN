@@ -3,11 +3,11 @@ import { contextauth } from "../../Authentication/AuthContext";
 import {  useNavigate } from "react-router-dom";
 
 const PrivateRoute = ({children}) => {
-const { user} = useContext(contextauth)
+const { user,loader} = useContext(contextauth)
 const navigate=useNavigate()
-
+if(loader)return <span className="loading loading-spinner loading-lg"></span>
 if(user)  return children
-else return navigate('/login')
+return navigate('/login')
 
 };
 
