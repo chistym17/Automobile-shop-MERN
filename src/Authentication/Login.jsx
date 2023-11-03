@@ -5,6 +5,7 @@ import Swal from 'sweetalert2'
 import { GoogleAuthProvider } from "firebase/auth";
 import { Link, useNavigate } from "react-router-dom";
 import Navbar from "../Components/Navbar/Navbar";
+import axios from "axios";
 const provider = new GoogleAuthProvider();
 
 const Login = () => {
@@ -16,16 +17,18 @@ const [error,seterror]=useState('')
   const handleSubmit = (e) => {
     e.preventDefault();
     const form=e.target
-    const name=form.name.value
     const email=form.email.value
     const password=form.password.value
-    const profilePicture=form.profilePicture.value
-    const user={name,email,password,profilePicture}
+ 
 
 signInWithEmailAndPassword(auth,email,password)
-.then(data=>{
+.then(()=>{
 seterror('')
-console.log(data)
+const user={email}
+axios.post('http://localhost:5000/jwt',user)
+.then(res=>console.log(res.data))
+
+
 Swal.fire({
   position: 'top-end',
   icon: 'success',
@@ -49,6 +52,7 @@ signInWithPopup(auth, provider)
 .then(data=>{
 seterror('')
 console.log(data)
+
 Swal.fire({
   position: 'top-end',
   icon: 'success',
