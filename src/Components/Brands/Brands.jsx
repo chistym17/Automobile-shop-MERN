@@ -1,37 +1,35 @@
-import Marquee from "react-fast-marquee";
 import BrandCard from "./BrandCard";
 
 const brands = [
   {
-    name: "Ford",
-    image: "https://i.ibb.co/j304VGq/robin-mathlener-qd-Qt-Hp1v-Wt-I-unsplash.jpg"
+    name: "Audi",
+    image: "https://i.ibb.co/mb2XVjd/audi.webp"
   },
   {
     name: "BMW",
-    image: "https://i.ibb.co/T0zS9RN/philippe-oursel-Zopo-Sy-TT-GM-unsplash.jpg"
+    image: "https://i.ibb.co/6gP0np6/bmw.webp"
   },
   {
     name: "Honda",
-    image: "https://i.ibb.co/vmMr8PD/hiroshi-tsubono-5-BTq-L1-K6-Uc-I-unsplash.jpg"
+    image: "https://i.ibb.co/9rydXw6/hyundai.webp"
   },
   {
     name: "Mercedes",
-    image: "https://i.ibb.co/rkc5zsq/doruk-bayram-gs3duh5iqkw-unsplash.jpg"
+    image: "https://i.ibb.co/M9FwR6Y/mercedes-benz.webp"
   },
   {
-    name: "Tesla",
-    image: "https://i.ibb.co/W07cWRN/chandler-cruttenden-CUJj-R4-J-Bl-M-unsplash.jpg"
+    name: "Land Rover",
+    image: "https://i.ibb.co/m6RXkrk/land-rover.webp"
   },
   {
     name: "Toyota",
-    image: "https://i.ibb.co/ZX741rM/alexander-shatov-Cys3-W7-MXDU-unsplash.jpg"
+    image: "https://i.ibb.co/PzVW6BZ/toyota.webp"
   }
 ];
 
 const Brands = () => (
- <Marquee>
 
- <div className="flex ">
+ <div className="grid grid-cols-3 gap-5 max-w-6xl mx-auto ">
     {brands.map((brand, index) => (
 
 <BrandCard key={index} {...brand} />
@@ -39,6 +37,5 @@ const Brands = () => (
     ))}
   </div>
 
-</Marquee>
 );
 export default Brands;
