@@ -3,7 +3,8 @@ import Navbar from "../Navbar/Navbar";
 import Swal from 'sweetalert2'
 
 const Cart = () => {
-    const items = useLoaderData()
+const items = useLoaderData()
+console.log('items;:',items.length)
 const navigate=useNavigate()
 const deleteItem=(name)=>
 {
@@ -19,7 +20,7 @@ Swal.fire({
   confirmButtonText: 'Yes, delete it!'
 }).then((result) => {
   if (result.isConfirmed) {
-    fetch(`https://brand-shop-server-8xqj00cqh-chisty17s-projects.vercel.app//${name}`,{
+    fetch(`http://localhost:5000/${name}`,{
 
 method:'DELETE'
 })

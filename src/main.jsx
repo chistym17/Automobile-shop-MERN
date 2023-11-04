@@ -32,7 +32,7 @@ element:<Home></Home>
 {
 path:'/cart',
 element:<Cart></Cart>,
-loader:()=>fetch('http:/localhost:5000/cart')},
+loader:()=>fetch('http://localhost:5000/cart')},
 
 
 
@@ -60,7 +60,7 @@ element:<PrivateRoute><AddProduct></AddProduct></PrivateRoute>
 {
 path:'/update/:id',
 element:<UpdateInfo></UpdateInfo>,
- loader:({params})=>fetch(`http:/localhost:5000/update/${params.id}`)
+ loader:({params})=>fetch(`http://localhost:5000/update/${params.id}`)
 },
 
 
@@ -74,7 +74,7 @@ element:<PrivateRoute><BrandPage></BrandPage></PrivateRoute>,
 {
 path:'/:name',
 element:<ProductDetail></ProductDetail>,
-loader:({params})=>fetch(`http:/localhost:5000/${params.name}`)
+loader:({params})=>fetch(`http://localhost:5000/${params.name}`)
 },
 
 

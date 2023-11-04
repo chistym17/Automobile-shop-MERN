@@ -25,7 +25,7 @@ signInWithEmailAndPassword(auth,email,password)
 .then(()=>{
 seterror('')
 const user={email}
-axios.post('http://localhost:5000/jwt',user)
+axios.post('http://localhost:5000/jwt',user,{withCredentials:true})
 .then(res=>console.log(res.data))
 
 
