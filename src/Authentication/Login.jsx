@@ -24,9 +24,9 @@ const [error,seterror]=useState('')
 signInWithEmailAndPassword(auth,email,password)
 .then(()=>{
 seterror('')
-const user={email}
-axios.post('http://localhost:5000/jwt',user,{withCredentials:true})
-.then(res=>console.log(res.data))
+// const user={email}
+// axios.post('http://localhost:5000/jwt',user,{withCredentials:true})
+// .then(res=>console.log(res.data))
 
 
 Swal.fire({

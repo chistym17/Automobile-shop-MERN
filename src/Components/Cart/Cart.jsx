@@ -4,7 +4,6 @@ import Swal from 'sweetalert2'
 
 const Cart = () => {
 const items = useLoaderData()
-console.log('items;:',items.length)
 const navigate=useNavigate()
 const deleteItem=(name)=>
 {
@@ -77,11 +76,6 @@ navigate('/cart')
 
                 )}
             </div>
-
-
-
-
-
 
 
 

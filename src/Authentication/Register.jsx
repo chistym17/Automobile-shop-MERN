@@ -14,8 +14,7 @@ const navigate=useNavigate()
     const name=form.name.value
     const email=form.email.value
     const password=form.password.value
-    const profilePicture=form.profilePicture.value
-    const user={name,email,password,profilePicture}
+    const user={name,email,password}
 createUserWithEmailAndPassword(auth,email,password)
 .then(data=>{
 seterror('')
@@ -38,25 +37,29 @@ seterror(error.message)
 };
 
   return (
-    <div>
+    <div className=''>
 <Navbar></Navbar>
+<div className='flex   max-w-5xl mx-auto'>
 
-<div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="bg-white p-8 rounded shadow-lg w-96">
-        <h2 className="text-2xl font-semibold mb-4">Register</h2>
+<div className='w-[50%] mt-[-80px] '><img src="https://i.ibb.co/gV5nSCW/20824341-6368592.jpg" alt="" /></div>
+
+
+<div className="min-h-screen  flex items-center justify-center w-[50%]">
+      <div className="bg-blue-300 p-8 rounded-xl shadow-lg w-96 mt-[-80px]">
+        <h2 className="text-4xl font-bold mb-4 text-center">Register Now!</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label htmlFor="name" className="block text-gray-600">Name</label>
+            <label htmlFor="name" className="block font-semibold text-gray-600 mb-1">Name</label>
             <input
               type="text"
               id="name"
               name="name"
-              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
+              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:border-black-600"
               required
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="email" className="block text-gray-600">Email</label>
+            <label htmlFor="email" className="block text-gray-600 font-semibold mb-1">Email</label>
             <input
               type="email"
               id="email"
@@ -66,7 +69,7 @@ seterror(error.message)
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="password" className="block text-gray-600">Password</label>
+            <label htmlFor="password" className="block text-gray-600 font-semibold mb-1">Password</label>
             <input
               type="password"
               id="password"
@@ -75,7 +78,7 @@ seterror(error.message)
               required
             />
           </div>
-          <div className="mb-4">
+          {/* <div className="mb-4">
             <label htmlFor="profilePicture" className="block text-gray-600">Profile Picture</label>
             <input
               type="file"
@@ -84,7 +87,7 @@ seterror(error.message)
               accept="image/*"
               className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
             />
-          </div>
+          </div> */}
           <div className="mb-6">
             <button
               type="submit"
@@ -102,6 +105,10 @@ seterror(error.message)
     </div>
 
 
+
+
+
+</div>
 
 </div>
   );

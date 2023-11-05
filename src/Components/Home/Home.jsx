@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import Brands from "../Brands/Brands";
+import Featured from "../Featured/Featured";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 
@@ -20,7 +21,7 @@ const Home = () => {
 <Brands></Brands>
 
 </div>
-
+<Featured></Featured>
 <div className="mt-10"><Footer></Footer></div>
 
 </div>
