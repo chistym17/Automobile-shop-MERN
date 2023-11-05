@@ -1,10 +1,28 @@
 import { useLoaderData, useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Swal from 'sweetalert2'
+import axios from "axios";
+import { useState } from "react";
+import { useContext } from "react";
+import  { contextauth } from "../../Authentication/AuthContext";
 
 const Cart = () => {
-const items = useLoaderData()
+const [items,setitems]=useState([])
+const[invalid,setinvalid]=useState(false)
 const navigate=useNavigate()
+const {user}=useContext(contextauth)
+const email=user?.email
+axios.get(`http://localhost:5000/cart?email=${email}`,{withCredentials:true})
+.then(res=>{
+console.log(res.data)
+if(res.data.message==='Not Authorized')
+{setinvalid(true)}
+else
+setitems(res.data)
+
+})
+
+
 const deleteItem=(name)=>
 {
 
@@ -46,7 +64,7 @@ navigate('/cart')
 
 }
 
-
+if(invalid)return <p className="text-3xl text-center">Unauthorized User</p>
 
 
 

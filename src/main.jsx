@@ -32,9 +32,8 @@ element:<Home></Home>
 {
 path:'/cart',
 element:<Cart></Cart>,
-loader:()=>fetch('http://localhost:5000/cart',{
-credentials: "include"
-})},
+
+},
 
 
 
