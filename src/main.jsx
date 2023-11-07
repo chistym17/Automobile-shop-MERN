@@ -16,6 +16,8 @@ import ProductDetail from './Components/Brands/ProductDetail';
 import Cart from './Components/Cart/Cart';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import UpdateInfo from './Components/UpdateInfo/UpdateInfo';
+import { Alert } from '@mui/material';
+import AllProduct from './Components/Product/AllProduct';
 
 const router = createBrowserRouter([
   {
@@ -78,6 +80,11 @@ element:<ProductDetail></ProductDetail>,
 loader:({params})=>fetch(`http://localhost:5000/${params.name}`)
 },
 
+{
+path:'/allproducts',
+element:<AllProduct></AllProduct>,
+loader:()=>fetch('http://localhost:5000/allproducts')
+},
 
 
 ]);

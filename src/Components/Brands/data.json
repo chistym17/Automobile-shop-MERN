@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Audi A3",
+    "brandName": "Audi",
+    "price": 35000,
+    "Description": "The Audi A3 is a compact luxury sedan with a focus on performance and advanced technology.",
+    "image": "https://i.ibb.co/GHT5GH0/chandler-media-dy-Cm4-Oth-Gx-E-unsplash.jpghttps://i.ibb.co/4gDDfRN/blake-meyer-CRNb-Hj-Naljo-unsplash.jpg"
+  },
+  {
+    "name": "Audi Q5",
+    "brandName": "Audi",
+    "price": 45000,
+    "Description": "The Audi Q5 is a midsize luxury SUV known for its stylish design and comfortable interior.",
+    "image": "https://i.ibb.co/b1ZGKtB/karl-kohler-Hf1r-AKkf-MAg-unsplash.jpg"
+  },
+  {
+    "name": "Audi A6",
+    "brandName": "Audi",
+    "price": 55000,
+    "Description": "The Audi A6 is a luxury sedan that combines elegance with powerful performance.",
+    "image": "https://i.ibb.co/H2T4yD2/jannis-lucas-v-QQ5-EBf-b-Y-unsplash.jpg"
+  },
+  {
+    "name": "Audi Q7",
+    "brandName": "Audi",
+    "price": 65000,
+    "Description": "The Audi Q7 is a full-size luxury SUV offering a spacious and premium interior.",
+    "image": "https://i.ibb.co/pj6m1jB/olav-tvedt-yq-ef-MJMu-Pg-unsplash.jpg"
+  },
+  {
+    "name": "Audi TT",
+    "brandName": "Audi",
+    "price": 40000,
+    "Description": "The Audi TT is a sporty compact coupe known for its performance and distinctive design.",
+    "image": "https://i.ibb.co/7gh3Dvg/martin-katler-c4-Z7-V84-gz-Y-unsplash.jpg"
+  }
+]

@@ -1,4 +1,5 @@
 import BrandCard from "./BrandCard";
+import './Brands.css'; // Import the CSS file
 
 const brands = [
   {
@@ -27,15 +28,19 @@ const brands = [
   }
 ];
 
-const Brands = () => (
+const Brands = () => {
+ 
 
- <div className="grid grid-cols-3 gap-5 max-w-6xl mx-auto ">
-    {brands.map((brand, index) => (
+  return (
+    <div className="grid grid-cols-3 gap-5 max-w-6xl mx-auto">
+      {brands.map((brand, index) => (
+        <BrandCard
+          key={index}
+          {...brand}
+        />
+      ))}
+    </div>
+  );
+};
 
-<BrandCard key={index} {...brand} />
-
-    ))}
-  </div>
-
-);
 export default Brands;

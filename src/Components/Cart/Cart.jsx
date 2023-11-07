@@ -5,6 +5,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useContext } from "react";
 import  { contextauth } from "../../Authentication/AuthContext";
+import { useEffect } from "react";
 
 const Cart = () => {
 const [items,setitems]=useState([])
@@ -12,6 +13,7 @@ const[invalid,setinvalid]=useState(false)
 const navigate=useNavigate()
 const {user}=useContext(contextauth)
 const email=user?.email
+useEffect(()=>{
 axios.get(`http://localhost:5000/cart?email=${email}`,{withCredentials:true})
 .then(res=>{
 console.log(res.data)
@@ -21,6 +23,12 @@ else
 setitems(res.data)
 
 })
+
+
+
+},[])
+
+
 
 
 const deleteItem=(name)=>

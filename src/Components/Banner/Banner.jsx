@@ -18,7 +18,7 @@ const Banner = () => {
         <div className="flex space-x-4">
           <Link to="/" className="hover:text-blue-400">Home</Link>
           <Link to="/about" className="hover:text-blue-400">About</Link>
-          <Link to="/products" className="hover:text-blue-400">Products</Link>
+          <Link to="/allproducts" className="hover:text-blue-400">Products</Link>
         </div>
         <div className="flex space-x-4">
           <Link to="/login" className="hover:text-blue-400">Login</Link>

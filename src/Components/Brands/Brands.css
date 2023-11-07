@@ -1,0 +1,23 @@
+.custom-exited {
+  /* CSS for the exited state */
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.custom-exiting {
+  /* CSS for the exiting state */
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+}
+
+.custom-entered {
+  /* CSS for the entered state */
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+.custom-entering {
+  /* CSS for the entering state */
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
