@@ -83,7 +83,6 @@ loader:({params})=>fetch(`http://localhost:5000/${params.name}`)
 {
 path:'/allproducts',
 element:<AllProduct></AllProduct>,
-loader:()=>fetch('http://localhost:5000/allproducts')
 },
 
 
